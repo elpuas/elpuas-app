@@ -7,22 +7,20 @@
 //
 
 import SwiftUI
+import Foundation
 
 struct ContentView: View {
+    init() {
+            UITabBar.appearance().isHidden = true
+        }
+    
     var body: some View {
         TabView {
             HomeView()
-                .tabItem {
-                    Image(systemName: "house")
-                    Text("Home")
-                }
             
             AboutView()
-                .tabItem {
-                    Image(systemName: "person")
-                    Text("About")
-                }
         }
+        .edgesIgnoringSafeArea(.bottom)
     }
 }
 
@@ -31,4 +29,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-

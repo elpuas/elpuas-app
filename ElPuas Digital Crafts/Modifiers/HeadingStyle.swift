@@ -6,6 +6,7 @@ struct HeadingStyle: ViewModifier {
             .font(.largeTitle)
             .fontWeight(.bold)
             .padding(.vertical, 8)
+            .foregroundColor(Color("SecondaryColor"))
     }
 }
 

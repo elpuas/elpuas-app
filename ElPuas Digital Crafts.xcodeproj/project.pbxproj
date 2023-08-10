@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3C91F6D2A857D4E00B61284 /* ArticlesAndTalks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C91F6C2A857D4D00B61284 /* ArticlesAndTalks.swift */; };
 		D3CA6A982A85327400297F3D /* ElPuas_Digital_CraftsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA6A972A85327400297F3D /* ElPuas_Digital_CraftsApp.swift */; };
 		D3CA6A9A2A85327400297F3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA6A992A85327400297F3D /* ContentView.swift */; };
 		D3CA6A9C2A85327700297F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CA6A9B2A85327700297F3D /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3C91F6C2A857D4D00B61284 /* ArticlesAndTalks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesAndTalks.swift; sourceTree = "<group>"; };
 		D3CA6A942A85327400297F3D /* ElPuas Digital Crafts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ElPuas Digital Crafts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CA6A972A85327400297F3D /* ElPuas_Digital_CraftsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElPuas_Digital_CraftsApp.swift; sourceTree = "<group>"; };
 		D3CA6A992A85327400297F3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			children = (
 				D3CA6AC32A8533F800297F3D /* HomeView.swift */,
 				D3CA6AC52A85340600297F3D /* AboutView.swift */,
+				D3C91F6C2A857D4D00B61284 /* ArticlesAndTalks.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C91F6D2A857D4E00B61284 /* ArticlesAndTalks.swift in Sources */,
 				D3CA6AC92A853B9600297F3D /* HeadingStyle.swift in Sources */,
 				D3CA6AC62A85340600297F3D /* AboutView.swift in Sources */,
 				D3CA6AC42A8533F800297F3D /* HomeView.swift in Sources */,
