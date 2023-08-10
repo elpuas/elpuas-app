@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3CA6A982A85327400297F3D /* ElPuas_Digital_CraftsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA6A972A85327400297F3D /* ElPuas_Digital_CraftsApp.swift */; };
+		D3CA6A9A2A85327400297F3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA6A992A85327400297F3D /* ContentView.swift */; };
+		D3CA6A9C2A85327700297F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CA6A9B2A85327700297F3D /* Assets.xcassets */; };
+		D3CA6AA02A85327700297F3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CA6A9F2A85327700297F3D /* Preview Assets.xcassets */; };
+		D3CA6AAA2A85327800297F3D /* ElPuas_Digital_CraftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA6AA92A85327800297F3D /* ElPuas_Digital_CraftsTests.swift */; };
+		D3CA6AB42A85327800297F3D /* ElPuas_Digital_CraftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA6AB32A85327800297F3D /* ElPuas_Digital_CraftsUITests.swift */; };
+		D3CA6AB62A85327800297F3D /* ElPuas_Digital_CraftsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA6AB52A85327800297F3D /* ElPuas_Digital_CraftsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3CA6AA62A85327800297F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3CA6A8C2A85327400297F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3CA6A932A85327400297F3D;
+			remoteInfo = "ElPuas Digital Crafts";
+		};
+		D3CA6AB02A85327800297F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3CA6A8C2A85327400297F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3CA6A932A85327400297F3D;
+			remoteInfo = "ElPuas Digital Crafts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3CA6A942A85327400297F3D /* ElPuas Digital Crafts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ElPuas Digital Crafts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CA6A972A85327400297F3D /* ElPuas_Digital_CraftsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElPuas_Digital_CraftsApp.swift; sourceTree = "<group>"; };
+		D3CA6A992A85327400297F3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3CA6A9B2A85327700297F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3CA6A9D2A85327700297F3D /* ElPuas_Digital_Crafts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ElPuas_Digital_Crafts.entitlements; sourceTree = "<group>"; };
+		D3CA6A9F2A85327700297F3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3CA6AA52A85327800297F3D /* ElPuas Digital CraftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ElPuas Digital CraftsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CA6AA92A85327800297F3D /* ElPuas_Digital_CraftsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElPuas_Digital_CraftsTests.swift; sourceTree = "<group>"; };
+		D3CA6AAF2A85327800297F3D /* ElPuas Digital CraftsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ElPuas Digital CraftsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CA6AB32A85327800297F3D /* ElPuas_Digital_CraftsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElPuas_Digital_CraftsUITests.swift; sourceTree = "<group>"; };
+		D3CA6AB52A85327800297F3D /* ElPuas_Digital_CraftsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElPuas_Digital_CraftsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3CA6A912A85327400297F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CA6AA22A85327800297F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CA6AAC2A85327800297F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3CA6A8B2A85327400297F3D = {
+			isa = PBXGroup;
+			children = (
+				D3CA6A962A85327400297F3D /* ElPuas Digital Crafts */,
+				D3CA6AA82A85327800297F3D /* ElPuas Digital CraftsTests */,
+				D3CA6AB22A85327800297F3D /* ElPuas Digital CraftsUITests */,
+				D3CA6A952A85327400297F3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3CA6A952A85327400297F3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3CA6A942A85327400297F3D /* ElPuas Digital Crafts.app */,
+				D3CA6AA52A85327800297F3D /* ElPuas Digital CraftsTests.xctest */,
+				D3CA6AAF2A85327800297F3D /* ElPuas Digital CraftsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3CA6A962A85327400297F3D /* ElPuas Digital Crafts */ = {
+			isa = PBXGroup;
+			children = (
+				D3CA6A972A85327400297F3D /* ElPuas_Digital_CraftsApp.swift */,
+				D3CA6A992A85327400297F3D /* ContentView.swift */,
+				D3CA6A9B2A85327700297F3D /* Assets.xcassets */,
+				D3CA6A9D2A85327700297F3D /* ElPuas_Digital_Crafts.entitlements */,
+				D3CA6A9E2A85327700297F3D /* Preview Content */,
+			);
+			path = "ElPuas Digital Crafts";
+			sourceTree = "<group>";
+		};
+		D3CA6A9E2A85327700297F3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3CA6A9F2A85327700297F3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3CA6AA82A85327800297F3D /* ElPuas Digital CraftsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3CA6AA92A85327800297F3D /* ElPuas_Digital_CraftsTests.swift */,
+			);
+			path = "ElPuas Digital CraftsTests";
+			sourceTree = "<group>";
+		};
+		D3CA6AB22A85327800297F3D /* ElPuas Digital CraftsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3CA6AB32A85327800297F3D /* ElPuas_Digital_CraftsUITests.swift */,
+				D3CA6AB52A85327800297F3D /* ElPuas_Digital_CraftsUITestsLaunchTests.swift */,
+			);
+			path = "ElPuas Digital CraftsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3CA6A932A85327400297F3D /* ElPuas Digital Crafts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CA6AB92A85327800297F3D /* Build configuration list for PBXNativeTarget "ElPuas Digital Crafts" */;
+			buildPhases = (
+				D3CA6A902A85327400297F3D /* Sources */,
+				D3CA6A912A85327400297F3D /* Frameworks */,
+				D3CA6A922A85327400297F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ElPuas Digital Crafts";
+			productName = "ElPuas Digital Crafts";
+			productReference = D3CA6A942A85327400297F3D /* ElPuas Digital Crafts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3CA6AA42A85327800297F3D /* ElPuas Digital CraftsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CA6ABC2A85327800297F3D /* Build configuration list for PBXNativeTarget "ElPuas Digital CraftsTests" */;
+			buildPhases = (
+				D3CA6AA12A85327800297F3D /* Sources */,
+				D3CA6AA22A85327800297F3D /* Frameworks */,
+				D3CA6AA32A85327800297F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3CA6AA72A85327800297F3D /* PBXTargetDependency */,
+			);
+			name = "ElPuas Digital CraftsTests";
+			productName = "ElPuas Digital CraftsTests";
+			productReference = D3CA6AA52A85327800297F3D /* ElPuas Digital CraftsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3CA6AAE2A85327800297F3D /* ElPuas Digital CraftsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CA6ABF2A85327800297F3D /* Build configuration list for PBXNativeTarget "ElPuas Digital CraftsUITests" */;
+			buildPhases = (
+				D3CA6AAB2A85327800297F3D /* Sources */,
+				D3CA6AAC2A85327800297F3D /* Frameworks */,
+				D3CA6AAD2A85327800297F3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3CA6AB12A85327800297F3D /* PBXTargetDependency */,
+			);
+			name = "ElPuas Digital CraftsUITests";
+			productName = "ElPuas Digital CraftsUITests";
+			productReference = D3CA6AAF2A85327800297F3D /* ElPuas Digital CraftsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3CA6A8C2A85327400297F3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D3CA6A932A85327400297F3D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D3CA6AA42A85327800297F3D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D3CA6A932A85327400297F3D;
+					};
+					D3CA6AAE2A85327800297F3D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D3CA6A932A85327400297F3D;
+					};
+				};
+			};
+			buildConfigurationList = D3CA6A8F2A85327400297F3D /* Build configuration list for PBXProject "ElPuas Digital Crafts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3CA6A8B2A85327400297F3D;
+			productRefGroup = D3CA6A952A85327400297F3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3CA6A932A85327400297F3D /* ElPuas Digital Crafts */,
+				D3CA6AA42A85327800297F3D /* ElPuas Digital CraftsTests */,
+				D3CA6AAE2A85327800297F3D /* ElPuas Digital CraftsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3CA6A922A85327400297F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CA6AA02A85327700297F3D /* Preview Assets.xcassets in Resources */,
+				D3CA6A9C2A85327700297F3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CA6AA32A85327800297F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CA6AAD2A85327800297F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3CA6A902A85327400297F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CA6A9A2A85327400297F3D /* ContentView.swift in Sources */,
+				D3CA6A982A85327400297F3D /* ElPuas_Digital_CraftsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CA6AA12A85327800297F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CA6AAA2A85327800297F3D /* ElPuas_Digital_CraftsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CA6AAB2A85327800297F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CA6AB62A85327800297F3D /* ElPuas_Digital_CraftsUITestsLaunchTests.swift in Sources */,
+				D3CA6AB42A85327800297F3D /* ElPuas_Digital_CraftsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3CA6AA72A85327800297F3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3CA6A932A85327400297F3D /* ElPuas Digital Crafts */;
+			targetProxy = D3CA6AA62A85327800297F3D /* PBXContainerItemProxy */;
+		};
+		D3CA6AB12A85327800297F3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3CA6A932A85327400297F3D /* ElPuas Digital Crafts */;
+			targetProxy = D3CA6AB02A85327800297F3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3CA6AB72A85327800297F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3CA6AB82A85327800297F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D3CA6ABA2A85327800297F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ElPuas Digital Crafts/ElPuas_Digital_Crafts.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ElPuas Digital Crafts/Preview Content\"";
+				DEVELOPMENT_TEAM = XSBDEU56EG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ElPuas-Digital-Crafts.ElPuas-Digital-Crafts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3CA6ABB2A85327800297F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ElPuas Digital Crafts/ElPuas_Digital_Crafts.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ElPuas Digital Crafts/Preview Content\"";
+				DEVELOPMENT_TEAM = XSBDEU56EG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ElPuas-Digital-Crafts.ElPuas-Digital-Crafts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3CA6ABD2A85327800297F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XSBDEU56EG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ElPuas-Digital-Crafts.ElPuas-Digital-CraftsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElPuas Digital Crafts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElPuas Digital Crafts";
+			};
+			name = Debug;
+		};
+		D3CA6ABE2A85327800297F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XSBDEU56EG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ElPuas-Digital-Crafts.ElPuas-Digital-CraftsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElPuas Digital Crafts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ElPuas Digital Crafts";
+			};
+			name = Release;
+		};
+		D3CA6AC02A85327800297F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XSBDEU56EG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ElPuas-Digital-Crafts.ElPuas-Digital-CraftsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ElPuas Digital Crafts";
+			};
+			name = Debug;
+		};
+		D3CA6AC12A85327800297F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XSBDEU56EG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ElPuas-Digital-Crafts.ElPuas-Digital-CraftsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ElPuas Digital Crafts";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3CA6A8F2A85327400297F3D /* Build configuration list for PBXProject "ElPuas Digital Crafts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CA6AB72A85327800297F3D /* Debug */,
+				D3CA6AB82A85327800297F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CA6AB92A85327800297F3D /* Build configuration list for PBXNativeTarget "ElPuas Digital Crafts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CA6ABA2A85327800297F3D /* Debug */,
+				D3CA6ABB2A85327800297F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CA6ABC2A85327800297F3D /* Build configuration list for PBXNativeTarget "ElPuas Digital CraftsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CA6ABD2A85327800297F3D /* Debug */,
+				D3CA6ABE2A85327800297F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CA6ABF2A85327800297F3D /* Build configuration list for PBXNativeTarget "ElPuas Digital CraftsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CA6AC02A85327800297F3D /* Debug */,
+				D3CA6AC12A85327800297F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3CA6A8C2A85327400297F3D /* Project object */;
+}
