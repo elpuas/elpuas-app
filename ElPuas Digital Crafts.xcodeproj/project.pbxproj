@@ -16,6 +16,7 @@
 		D3CA6AB62A85327800297F3D /* ElPuas_Digital_CraftsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA6AB52A85327800297F3D /* ElPuas_Digital_CraftsUITestsLaunchTests.swift */; };
 		D3CA6AC42A8533F800297F3D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA6AC32A8533F800297F3D /* HomeView.swift */; };
 		D3CA6AC62A85340600297F3D /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA6AC52A85340600297F3D /* AboutView.swift */; };
+		D3CA6AC92A853B9600297F3D /* HeadingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CA6AC82A853B9600297F3D /* HeadingStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D3CA6AB52A85327800297F3D /* ElPuas_Digital_CraftsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElPuas_Digital_CraftsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D3CA6AC32A8533F800297F3D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D3CA6AC52A85340600297F3D /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		D3CA6AC82A853B9600297F3D /* HeadingStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D3CA6A962A85327400297F3D /* ElPuas Digital Crafts */ = {
 			isa = PBXGroup;
 			children = (
+				D3CA6AC72A853B7000297F3D /* Modifiers */,
 				D3CA6AC22A8533E100297F3D /* Pages */,
 				D3CA6A972A85327400297F3D /* ElPuas_Digital_CraftsApp.swift */,
 				D3CA6A992A85327400297F3D /* ContentView.swift */,
@@ -141,6 +144,14 @@
 				D3CA6AC52A85340600297F3D /* AboutView.swift */,
 			);
 			path = Pages;
+			sourceTree = "<group>";
+		};
+		D3CA6AC72A853B7000297F3D /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				D3CA6AC82A853B9600297F3D /* HeadingStyle.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3CA6AC92A853B9600297F3D /* HeadingStyle.swift in Sources */,
 				D3CA6AC62A85340600297F3D /* AboutView.swift in Sources */,
 				D3CA6AC42A8533F800297F3D /* HomeView.swift in Sources */,
 				D3CA6A9A2A85327400297F3D /* ContentView.swift in Sources */,
@@ -435,6 +447,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ElPuas;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -473,6 +487,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ElPuas;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

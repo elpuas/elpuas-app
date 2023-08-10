@@ -1,5 +1,6 @@
 //
 //  ContentView.swift
+//
 //  ElPuas Digital Crafts
 //
 //  Created by Carlo  Navas on 10/8/23.
@@ -21,8 +22,6 @@ struct ContentView: View {
                     Image(systemName: "person")
                     Text("About")
                 }
-            
-            // Add other section views similarly
         }
     }
 }
