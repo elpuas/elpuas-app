@@ -35,7 +35,7 @@ struct HomeView: View {
             .padding(3.0)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color("AccentColor"))
-        }
+        } // Navigation View
         .accentColor(Color("SecondaryColor"))
-    }
-}
+    } // Body
+} // View

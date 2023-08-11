@@ -19,6 +19,8 @@ struct ContentView: View {
             HomeView()
             
             AboutView()
+            
+            WhatIDoView()
         }
         .edgesIgnoringSafeArea(.bottom)
     }
